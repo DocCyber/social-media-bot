@@ -51,6 +51,7 @@ class ConfigManager:
         self._config: Dict[str, Any] = {}
         self._platforms: Dict[str, PlatformConfig] = {}
         self._loaded = False
+        self.unified_config: Dict[str, Any] = {}
         
         # Define expected config file locations (priority order)
         self.unified_config_file = self.base_path / "config" / "master_config.json"
@@ -85,21 +86,21 @@ class ConfigManager:
         """Load the new unified configuration format."""
         try:
             with open(self.unified_config_file, 'r', encoding='utf-8') as f:
-                unified_config = json.load(f)
+                self.unified_config = json.load(f)
             
             # Convert unified format to internal format
             self._config = {
-                'meta': unified_config.get('meta', {}),
-                'paths': unified_config.get('paths', {}),
-                'logging': unified_config.get('logging', {}),
-                'scheduling': unified_config.get('scheduling', {}),
-                'content': unified_config.get('content', {}),
-                'interactive': unified_config.get('interactive', {}),
-                'security': unified_config.get('security', {})
+                'meta': self.unified_config.get('meta', {}),
+                'paths': self.unified_config.get('paths', {}),
+                'logging': self.unified_config.get('logging', {}),
+                'scheduling': self.unified_config.get('scheduling', {}),
+                'content': self.unified_config.get('content', {}),
+                'interactive': self.unified_config.get('interactive', {}),
+                'security': self.unified_config.get('security', {})
             }
             
             # Convert platforms to legacy format for backward compatibility
-            platforms = unified_config.get('platforms', {})
+            platforms = self.unified_config.get('platforms', {})
             for platform_name, platform_config in platforms.items():
                 if platform_name == 'twitter':
                     self._config['twitter'] = platform_config
@@ -295,6 +296,39 @@ class ConfigManager:
             return platform_config.get('enabled', True)  # Default to enabled for legacy configs
         return False
     
+    def get_nested_value(self, key_path: str, default: Any = None) -> Any:
+        """
+        Get a nested configuration value using dot notation.
+        
+        Args:
+            key_path: Dot-separated path to the value (e.g., 'scheduling.timezone')
+            default: Default value if path not found
+            
+        Returns:
+            Configuration value or default
+        """
+        if not self._loaded:
+            self.load_all_configs()
+        
+        # Handle unified config access
+        if hasattr(self, 'unified_config') and self.unified_config:
+            config = self.unified_config
+        else:
+            config = self._config
+        
+        keys = key_path.split('.')
+        current = config
+        
+        try:
+            for key in keys:
+                if isinstance(current, dict) and key in current:
+                    current = current[key]
+                else:
+                    return default
+            return current
+        except (KeyError, TypeError):
+            return default
+
     def get_meta_info(self) -> Dict[str, Any]:
         """Get meta information from unified config."""
         return self.get_global_config('meta', {})
