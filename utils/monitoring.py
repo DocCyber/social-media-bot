@@ -122,12 +122,14 @@ class MonitoringSystem:
     Comprehensive monitoring system with structured logging, metrics, and health checks.
     """
     
-    def __init__(self, base_path: Optional[Union[str, Path]] = None):
+    def __init__(self, base_path: Optional[Union[str, Path]] = None, 
+                 auto_start_background: bool = True):
         """
         Initialize monitoring system.
         
         Args:
             base_path: Base directory for log files and monitoring data
+            auto_start_background: Whether to automatically start background processing
         """
         if base_path is None:
             self.base_path = Path(__file__).parent.parent
@@ -155,8 +157,9 @@ class MonitoringSystem:
         self.metrics_thread = None
         self._running = False
         
-        # Start background processing
-        self.start_background_processing()
+        # Start background processing if enabled
+        if auto_start_background:
+            self.start_background_processing()
     
     def _setup_structured_logging(self):
         """Setup structured logging with multiple outputs."""
@@ -444,11 +447,16 @@ class MonitoringSystem:
 # Global monitoring instance
 _monitoring_instance: Optional[MonitoringSystem] = None
 
-def get_monitoring() -> MonitoringSystem:
-    """Get global monitoring system instance."""
+def get_monitoring(auto_start_background: bool = True) -> MonitoringSystem:
+    """
+    Get global monitoring system instance.
+    
+    Args:
+        auto_start_background: Whether to automatically start background processing
+    """
     global _monitoring_instance
     if _monitoring_instance is None:
-        _monitoring_instance = MonitoringSystem()
+        _monitoring_instance = MonitoringSystem(auto_start_background=auto_start_background)
         _monitoring_instance._start_time = time.time()
     return _monitoring_instance
 

@@ -78,7 +78,8 @@ class SocialMediaBot:
     def _get_monitoring(self):
         """Lazy load monitoring."""
         if self.monitoring is None:
-            self.monitoring = get_monitoring()
+            # Disable background processing during initialization to prevent hangs
+            self.monitoring = get_monitoring(auto_start_background=False)
         return self.monitoring
 
     def _signal_handler(self, signum, frame):

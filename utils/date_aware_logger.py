@@ -20,7 +20,8 @@ from logging.handlers import RotatingFileHandler
 class DateMarkerHandler(logging.Handler):
     """Custom handler that inserts date markers and manages daily files."""
     
-    def __init__(self, base_path: Union[str, Path], max_file_size: int = 10 * 1024 * 1024):
+    def __init__(self, base_path: Union[str, Path], max_file_size: int = 10 * 1024 * 1024, 
+                 enable_background_markers: bool = True):
         super().__init__()
         self.base_path = Path(base_path)
         self.logs_dir = self.base_path / "monitoring" / "logs"
@@ -31,10 +32,12 @@ class DateMarkerHandler(logging.Handler):
         self.current_file = None
         self.last_log_time = datetime.now()
         self.lock = threading.Lock()
+        self.marker_thread = None
         
-        # Start background thread for date markers
-        self.marker_thread = threading.Thread(target=self._date_marker_loop, daemon=True)
-        self.marker_thread.start()
+        # Start background thread for date markers only if enabled
+        if enable_background_markers:
+            self.marker_thread = threading.Thread(target=self._date_marker_loop, daemon=True)
+            self.marker_thread.start()
     
     def _get_log_file_path(self, date: datetime) -> Path:
         """Get log file path for a specific date."""
@@ -204,15 +207,18 @@ class DateMarkerHandler(logging.Handler):
 class EnhancedBotLogger:
     """Enhanced logger with date awareness and activity tracking."""
     
-    def __init__(self, module_name: str, base_path: Optional[Union[str, Path]] = None):
+    def __init__(self, module_name: str, base_path: Optional[Union[str, Path]] = None, 
+                 enable_background_markers: bool = True):
         """
         Initialize enhanced bot logger.
         
         Args:
             module_name: Name of the module (e.g., 'bluesky', 'twitter')
             base_path: Base directory for logs
+            enable_background_markers: Whether to enable background date markers
         """
         self.module_name = module_name
+        self.enable_background_markers = enable_background_markers
         
         if base_path is None:
             self.base_path = Path(__file__).parent.parent
@@ -230,7 +236,7 @@ class EnhancedBotLogger:
     def _setup_handlers(self):
         """Setup logging handlers."""
         # Date-aware file handler
-        date_handler = DateMarkerHandler(self.base_path)
+        date_handler = DateMarkerHandler(self.base_path, enable_background_markers=self.enable_background_markers)
         date_handler.setLevel(logging.DEBUG)
         self.logger.addHandler(date_handler)
         
@@ -307,9 +313,15 @@ class EnhancedBotLogger:
         self.logger.debug(message, extra={'module_name': self.module_name, **kwargs})
 
 
-def get_enhanced_logger(module_name: str) -> EnhancedBotLogger:
-    """Get enhanced logger instance for a module."""
-    return EnhancedBotLogger(module_name)
+def get_enhanced_logger(module_name: str, enable_background_markers: bool = True) -> EnhancedBotLogger:
+    """
+    Get enhanced logger instance for a module.
+    
+    Args:
+        module_name: Name of the module
+        enable_background_markers: Whether to enable background date markers (default True)
+    """
+    return EnhancedBotLogger(module_name, enable_background_markers=enable_background_markers)
 
 
 # Example usage and testing
