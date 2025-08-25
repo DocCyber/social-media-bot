@@ -19,9 +19,9 @@ try:
     from automation.content_coordinator import get_content_coordinator, ContentType
     from automation.content_rotator import get_content_rotator
     from automation.timing_optimizer import get_timing_optimizer
-    from utils.monitoring import get_monitoring, log_event
+    from utils.monitoring import get_monitoring
     from utils.config_manager import ConfigManager
-    from utils.date_aware_logger import get_enhanced_logger
+    import logging
 except ImportError as e:
     print(f"Import error: {e}")
     print("Please ensure all required modules are installed.")
@@ -29,15 +29,18 @@ except ImportError as e:
 
 class SocialMediaBot:
     def __init__(self, config_mode="auto"):
-        self.logger = get_enhanced_logger("main")
+        # Setup basic logging (avoid background threads from enhanced logger)
+        logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+        self.logger = logging.getLogger("main")
         self.config_manager = ConfigManager()
+        self.config_manager.load_all_configs()  # Load config immediately
         
-        # Initialize core components
-        self.scheduler = get_scheduler()
-        self.coordinator = get_content_coordinator()
-        self.rotator = get_content_rotator()
-        self.timing_optimizer = get_timing_optimizer()
-        self.monitoring = get_monitoring()
+        # Initialize core components (lazy loading to avoid background threads)
+        self.scheduler = None
+        self.coordinator = None
+        self.rotator = None
+        self.timing_optimizer = None
+        self.monitoring = None
         
         self.running = False
         self.config_mode = config_mode
@@ -47,7 +50,36 @@ class SocialMediaBot:
         signal.signal(signal.SIGTERM, self._signal_handler)
         
         self.logger.info("Social Media Bot initialized")
-        log_event("info", "Bot main process started", "main")
+
+    def _get_scheduler(self):
+        """Lazy load scheduler."""
+        if self.scheduler is None:
+            self.scheduler = get_scheduler()
+        return self.scheduler
+    
+    def _get_coordinator(self):
+        """Lazy load coordinator."""
+        if self.coordinator is None:
+            self.coordinator = get_content_coordinator()
+        return self.coordinator
+    
+    def _get_rotator(self):
+        """Lazy load rotator."""
+        if self.rotator is None:
+            self.rotator = get_content_rotator()
+        return self.rotator
+    
+    def _get_timing_optimizer(self):
+        """Lazy load timing optimizer."""
+        if self.timing_optimizer is None:
+            self.timing_optimizer = get_timing_optimizer()
+        return self.timing_optimizer
+    
+    def _get_monitoring(self):
+        """Lazy load monitoring."""
+        if self.monitoring is None:
+            self.monitoring = get_monitoring()
+        return self.monitoring
 
     def _signal_handler(self, signum, frame):
         """Handle shutdown signals gracefully."""
@@ -72,7 +104,7 @@ class SocialMediaBot:
             if platform in ["twitter", "mastodon", "bluesky"]:
                 try:
                     # Schedule 3-5 posts per day with intelligent timing
-                    scheduled_ids = self.rotator.schedule_automated_content(
+                    scheduled_ids = self._get_rotator().schedule_automated_content(
                         platform=platform,
                         num_posts=4,  # 4 posts per day
                         spacing_hours=6  # Every 6 hours
@@ -98,14 +130,14 @@ class SocialMediaBot:
             
             # Show quick status
             try:
-                all_tasks = self.scheduler.get_all_tasks_status()
+                all_tasks = self._get_scheduler().get_all_tasks_status()
                 running_tasks = sum(1 for task in all_tasks if task["status"] == "running")
                 enabled_tasks = sum(1 for task in all_tasks if task["enabled"])
                 
                 print(f"Tasks: {running_tasks} running, {enabled_tasks} enabled")
                 
                 # Show next few scheduled tasks
-                upcoming = self.scheduler.get_next_scheduled_tasks(3)
+                upcoming = self._get_scheduler().get_next_scheduled_tasks(3)
                 if upcoming:
                     print("Next scheduled:")
                     for task in upcoming:
@@ -184,7 +216,7 @@ class SocialMediaBot:
     def _force_run_task(self):
         """Force run a specific task."""
         try:
-            all_tasks = self.scheduler.get_all_tasks_status()
+            all_tasks = self._get_scheduler().get_all_tasks_status()
             
             print("\nAvailable tasks:")
             for i, task in enumerate(all_tasks[:10]):
@@ -199,7 +231,7 @@ class SocialMediaBot:
                 task_index = int(choice) - 1
                 if 0 <= task_index < len(all_tasks):
                     task = all_tasks[task_index]
-                    success = self.scheduler.force_run_task(task["id"])
+                    success = self._get_scheduler().force_run_task(task["id"])
                     if success:
                         print(f"Task '{task['name']}' started successfully")
                     else:
@@ -220,7 +252,7 @@ class SocialMediaBot:
             print("="*60)
             
             # Scheduler status
-            all_tasks = self.scheduler.get_all_tasks_status()
+            all_tasks = self._get_scheduler().get_all_tasks_status()
             running_tasks = sum(1 for task in all_tasks if task["status"] == "running")
             enabled_tasks = sum(1 for task in all_tasks if task["enabled"])
             
@@ -228,16 +260,16 @@ class SocialMediaBot:
             
             # Content status
             for platform in ["twitter", "mastodon", "bluesky"]:
-                stats = self.coordinator.get_platform_statistics(platform)
+                stats = self._get_coordinator().get_platform_statistics(platform)
                 print(f"{platform.title()}: {stats['total_pending']} pending, "
                       f"{stats['posts_last_hour']}/hour")
             
             # Content pools
-            pool_stats = self.rotator.get_content_statistics()
+            pool_stats = self._get_rotator().get_content_statistics()
             print(f"Content: {pool_stats['total_available_content']} items in pools")
             
             # System health
-            system_status = self.monitoring.get_system_status()
+            system_status = self._get_monitoring().get_system_status()
             print(f"Health: {system_status.get('overall_status', 'unknown')}")
             
         except Exception as e:
@@ -253,7 +285,7 @@ class SocialMediaBot:
             self.logger.info("Starting social media bot automation...")
             
             # Start scheduler
-            self.scheduler.start()
+            self._get_scheduler().start()
             
             # Setup default schedules if in auto mode
             if self.config_mode == "auto":
@@ -261,13 +293,13 @@ class SocialMediaBot:
             
             self.running = True
             self.logger.info("Social media bot started successfully")
-            log_event("info", "Bot automation started", "main")
+# Removed log_event to avoid background threads
             
-            print("✅ Automation started successfully!")
+            print("+ Automation started successfully!")
             
         except Exception as e:
             self.logger.error(f"Failed to start bot: {e}")
-            print(f"❌ Failed to start: {e}")
+            print(f"- Failed to start: {e}")
 
     def stop(self):
         """Stop the automation system."""
@@ -279,17 +311,17 @@ class SocialMediaBot:
             self.logger.info("Stopping social media bot...")
             
             # Stop scheduler
-            self.scheduler.stop()
+            self._get_scheduler().stop()
             
             self.running = False
             self.logger.info("Social media bot stopped")
-            log_event("info", "Bot automation stopped", "main")
+# Removed log_event to avoid background threads
             
-            print("✅ Automation stopped successfully!")
+            print("+ Automation stopped successfully!")
             
         except Exception as e:
             self.logger.error(f"Error stopping bot: {e}")
-            print(f"❌ Error stopping: {e}")
+            print(f"- Error stopping: {e}")
 
     def run_continuous(self):
         """Run in continuous mode (for background execution)."""
@@ -306,7 +338,7 @@ class SocialMediaBot:
                 if datetime.now().minute == 0:  # Every hour
                     try:
                         # Refresh content pools
-                        refreshed = self.rotator.refresh_content_pools()
+                        refreshed = self._get_rotator().refresh_content_pools()
                         if refreshed > 0:
                             self.logger.info(f"Refreshed {refreshed} content pools")
                     except Exception as e:
@@ -335,9 +367,9 @@ def main():
             print("Setting up default schedules...")
             success = bot.setup_default_schedules()
             if success:
-                print("✅ Default schedules configured successfully!")
+                print("+ Default schedules configured successfully!")
             else:
-                print("❌ Failed to setup schedules")
+                print("- Failed to setup schedules")
             return
         
         if args.mode == "interactive":
