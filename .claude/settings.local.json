@@ -1,7 +1,18 @@
 {
   "permissions": {
     "allow": [
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Bash(del test_platform_fix.py)",
+      "Bash(pip install:*)",
+      "WebSearch",
+      "WebFetch(domain:docs.bsky.app)",
+      "Bash(python:*)",
+      "Bash(tasklist:*)",
+      "Bash(wmic process:*)",
+      "Bash(cat:*)",
+      "Bash(timeout 15 python:*)",
+      "Bash(gh:*)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": []

@@ -1,0 +1,10 @@
+{
+  "handles": [
+    "theonion",
+    "docafterdark.com"
+  ],
+  "dids": [
+    "did:plc:lzi56klkaehwzqut72b2hxs6"
+  ],
+  "description": "Accounts to never unfollow. Add handles to 'handles' array or DIDs to 'dids' array."
+}

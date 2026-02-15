@@ -1,0 +1,167 @@
+Architectural Requirements
+
+You must NOT modify the independent posting code inside:
+
+/twitter/
+/bluesky/
+/mastodon/
+
+
+Those folders must continue operating standalone exactly as they do now.
+BUT we are adding a new top-level folder:
+
+/rss/
+    rss_watcher.py
+    rss_state.json
+
+
+The rss_watcher.py module will:
+
+Poll the feed
+
+Generate the teaser text
+
+Call each platform’s post function directly
+
+The platform bots must be extended with ONE small method:
+
+post_external_text(text_string)
+
+
+This will bypass the platform’s internal “get a joke, format a joke, add emojis” logic, and simply take a finished text string and post it using the existing network/auth code.
+
+This avoids touching anything that generates content.
+You’re only bolting on a second entry point.
+
+Required Changes Per Platform
+1. Twitter
+
+Inside /twitter/twitter_bot.py add:
+
+def post_external_text(text):
+    # Reuse the existing authenticated client
+    client = get_twitter_client()   # whatever your bot currently calls
+    client.create_tweet(text=text)
+
+
+No changes to joke logic.
+This is a new, clean entry.
+
+2. Bluesky (Most Important: token reuse)
+
+Inside /bluesky/bsky_bot.py:
+
+def post_external_text(text):
+    session = load_cached_session()  # reuses your saved JWT token
+    # If session is expired, your existing login() should refresh it automatically
+    session.post(text=text)
+
+
+Do NOT generate a new session inside this function.
+Re-use the one stored in your existing session file (likely JSON containing jwt, did, etc).
+
+Your Bluesky code already handles token refresh when needed.
+Tell Codex to call the same code path that your normal joke bot uses.
+
+3. Mastodon
+
+Inside /mastodon/masto_bot.py:
+
+def post_external_text(text):
+    client = get_mastodon_client()
+    client.status_post(text, visibility='public')
+
+
+Done.
+
+The RSS Poster Should Work Like This
+rss_watcher.py
+
+Load RSS
+
+Extract new items
+
+For each new item:
+a. Generate teaser using LLM
+b. Call:
+
+from twitter.twitter_bot import post_external_text
+from bluesky.bsky_bot import post_external_text
+from mastodon.masto_bot import post_external_text
+
+
+c. Update RSS state
+d. Sleep 5–10 seconds
+e. Move to next item
+
+Important:
+
+The RSS script is not allowed to import or trigger ANY other code that generates content for jokes or other posts.
+It must only call the new post_external_text() methods.
+
+Failure Isolation Rules
+
+If one platform fails:
+
+Do NOT stop the RSS run
+
+Do NOT stop updating state
+
+Do NOT retry more than once
+
+Log the failure
+
+Keep going to the next platform or item
+
+This ensures temporary Twitter ban → Bluesky and Masto continue posting.
+
+Posting Behavior Requirements
+
+If posting fails on a platform, just continue.
+
+Do not block feed processing.
+
+The other platforms still get the content.
+
+DO NOT generate the teaser text more than once per article.
+Create it once, reuse the same string across all platforms.
+
+Bluesky Token Reuse — Specific Instructions
+
+Add this explicit directive for Codex:
+
+NEVER create a new Bluesky session inside post_external_text.
+ALWAYS load and use the existing session file.
+If the session is expired, reuse the bot’s existing token-refresh mechanism.
+Do not implement a second refresh method.
+Do not create new login logic.
+
+
+This guarantees performance and prevents hitting Bluesky’s “too many logins” throttling wall.
+
+State File Example
+
+Inside /rss/rss_state.json:
+
+{
+  "last_guid": "https://thesixthlense.com/article/betting-against-trust...",
+  "last_checked": "2025-11-12T21:02:00-05:00"
+}
+
+Scheduler / Loop
+
+create a task to do this and run every 20 minutes that is launched by main_launcher.py in the same way all the other funtions of this bot are launched
+
+Create a unified runner script rss_runner.py that imports rss_watcher and runs it in a simple endless loop with a 5-minute sleep between polls. This should not interfere with the existing joke timers on any platform.
+
+
+That keeps everything clean and separate.
+
+Final Codex Directive: Summarized
+
+Give Codex this blunt paragraph at the end:
+
+Do NOT rewrite platform bots. Do NOT replace their content logic. Do NOT touch their login flows except to expose an additional simple function named post_external_text(text). The RSS watcher generates content once using LLM APIs and hands it to each post_external_text() function. Each bot posts it with its current session/auth. If a platform fails, ignore it and keep going. Use GUID to detect new RSS items and save state in rss_state.json. This entire RSS system must be fully optional and run independently.
+
+
+==========================================================

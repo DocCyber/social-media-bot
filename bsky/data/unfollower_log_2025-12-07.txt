@@ -1,0 +1,77 @@
+[2025-12-07 01:02:35 EST] [INFO] Starting conservative unfollow pass (batch mode, max: 50)
+[2025-12-07 01:02:36 EST] [INFO] Loading new format unreciprocated following data
+[2025-12-07 01:02:36 EST] [INFO] No unreciprocated following data available
+[2025-12-07 03:02:36 EST] [INFO] Starting conservative unfollow pass (batch mode, max: 50)
+[2025-12-07 03:02:36 EST] [INFO] Loading new format unreciprocated following data
+[2025-12-07 03:02:36 EST] [INFO] Total accounts in list: 10
+[2025-12-07 03:02:37 EST] [INFO] Found 10 candidates for processing
+[2025-12-07 03:02:37 EST] [INFO] Processing user: mo0n-v1xen.bsky.social ()
+[2025-12-07 03:02:37 EST] [INFO] Relationship: We follow them: True, They follow us: False
+[2025-12-07 03:02:38 EST] [SUCCESS] UNFOLLOWED: mo0n-v1xen.bsky.social () - Confirmed unreciprocated follow
+[2025-12-07 03:02:38 EST] [INFO] Processing user: plantbeest.bsky.social ()
+[2025-12-07 03:02:38 EST] [INFO] Relationship: We follow them: True, They follow us: False
+[2025-12-07 03:02:39 EST] [SUCCESS] UNFOLLOWED: plantbeest.bsky.social () - Confirmed unreciprocated follow
+[2025-12-07 03:02:39 EST] [INFO] Processing user: bourdoirt.bsky.social ()
+[2025-12-07 03:02:40 EST] [INFO] Relationship: We follow them: True, They follow us: False
+[2025-12-07 03:02:40 EST] [SUCCESS] UNFOLLOWED: bourdoirt.bsky.social () - Confirmed unreciprocated follow
+[2025-12-07 03:02:40 EST] [INFO] Processing user: ncopa.bsky.social ()
+[2025-12-07 03:02:41 EST] [INFO] Relationship: We follow them: True, They follow us: False
+[2025-12-07 03:02:41 EST] [SUCCESS] UNFOLLOWED: ncopa.bsky.social () - Confirmed unreciprocated follow
+[2025-12-07 03:02:41 EST] [INFO] Processing user: aspsomnambulist.bsky.social ()
+[2025-12-07 03:02:42 EST] [INFO] Relationship: We follow them: True, They follow us: False
+[2025-12-07 03:02:43 EST] [SUCCESS] UNFOLLOWED: aspsomnambulist.bsky.social () - Confirmed unreciprocated follow
+[2025-12-07 03:02:43 EST] [INFO] Processing user: anccncc4.bsky.social ()
+[2025-12-07 03:02:43 EST] [INFO] Relationship: We follow them: True, They follow us: False
+[2025-12-07 03:02:44 EST] [SUCCESS] UNFOLLOWED: anccncc4.bsky.social () - Confirmed unreciprocated follow
+[2025-12-07 03:02:44 EST] [INFO] Processing user: lorenzosunflower.bsky.social ()
+[2025-12-07 03:02:44 EST] [INFO] Relationship: We follow them: True, They follow us: False
+[2025-12-07 03:02:45 EST] [SUCCESS] UNFOLLOWED: lorenzosunflower.bsky.social () - Confirmed unreciprocated follow
+[2025-12-07 03:02:45 EST] [INFO] Processing user: iam1stewart.bsky.social ()
+[2025-12-07 03:02:45 EST] [INFO] Relationship: We follow them: True, They follow us: False
+[2025-12-07 03:02:46 EST] [SUCCESS] UNFOLLOWED: iam1stewart.bsky.social () - Confirmed unreciprocated follow
+[2025-12-07 03:02:46 EST] [INFO] Processing user: nicknamethebolter.swifties.social ()
+[2025-12-07 03:02:47 EST] [INFO] Relationship: We follow them: True, They follow us: False
+[2025-12-07 03:02:47 EST] [SUCCESS] UNFOLLOWED: nicknamethebolter.swifties.social () - Confirmed unreciprocated follow
+[2025-12-07 03:02:47 EST] [INFO] Processing user: rickhavoc.bsky.social ()
+[2025-12-07 03:02:48 EST] [INFO] Relationship: We follow them: True, They follow us: False
+[2025-12-07 03:02:49 EST] [SUCCESS] UNFOLLOWED: rickhavoc.bsky.social () - Confirmed unreciprocated follow
+[2025-12-07 03:02:49 EST] [INFO] Loading new format unreciprocated following data
+[2025-12-07 03:02:49 EST] [INFO] Updated unreciprocated file with 0 remaining entries
+[2025-12-07 03:02:49 EST] [INFO] Remaining accounts: 0
+[2025-12-07 03:02:49 EST] [INFO] Pass completed: Processed 10 accounts
+[2025-12-07 03:02:49 EST] [INFO]   - Unfollowed: 10
+[2025-12-07 03:02:49 EST] [INFO]   - Stale data removed: 0
+[2025-12-07 03:02:49 EST] [INFO]   - Now following back: 0
+[2025-12-07 03:02:49 EST] [INFO]   - Deleted accounts: 0
+[2025-12-07 03:02:49 EST] [INFO]   - Errors: 0
+[2025-12-07 03:02:49 EST] [INFO] Total unfollowed today: 10, All time: 8061
+[2025-12-07 05:02:49 EST] [INFO] Starting conservative unfollow pass (batch mode, max: 50)
+[2025-12-07 05:02:49 EST] [INFO] Loading new format unreciprocated following data
+[2025-12-07 05:02:49 EST] [INFO] No unreciprocated following data available
+[2025-12-07 07:02:49 EST] [INFO] Starting conservative unfollow pass (batch mode, max: 50)
+[2025-12-07 07:02:49 EST] [INFO] Loading new format unreciprocated following data
+[2025-12-07 07:02:49 EST] [INFO] No unreciprocated following data available
+[2025-12-07 09:02:50 EST] [INFO] Starting conservative unfollow pass (batch mode, max: 50)
+[2025-12-07 09:02:50 EST] [INFO] Loading new format unreciprocated following data
+[2025-12-07 09:02:50 EST] [INFO] No unreciprocated following data available
+[2025-12-07 11:02:51 EST] [INFO] Starting conservative unfollow pass (batch mode, max: 50)
+[2025-12-07 11:02:51 EST] [INFO] Loading new format unreciprocated following data
+[2025-12-07 11:02:51 EST] [INFO] No unreciprocated following data available
+[2025-12-07 13:02:51 EST] [INFO] Starting conservative unfollow pass (batch mode, max: 50)
+[2025-12-07 13:02:51 EST] [INFO] Loading new format unreciprocated following data
+[2025-12-07 13:02:51 EST] [INFO] No unreciprocated following data available
+[2025-12-07 15:02:52 EST] [INFO] Starting conservative unfollow pass (batch mode, max: 50)
+[2025-12-07 15:02:52 EST] [INFO] Loading new format unreciprocated following data
+[2025-12-07 15:02:52 EST] [INFO] No unreciprocated following data available
+[2025-12-07 17:02:52 EST] [INFO] Starting conservative unfollow pass (batch mode, max: 50)
+[2025-12-07 17:02:52 EST] [INFO] Loading new format unreciprocated following data
+[2025-12-07 17:02:52 EST] [INFO] No unreciprocated following data available
+[2025-12-07 19:02:52 EST] [INFO] Starting conservative unfollow pass (batch mode, max: 50)
+[2025-12-07 19:02:52 EST] [INFO] Loading new format unreciprocated following data
+[2025-12-07 19:02:52 EST] [INFO] No unreciprocated following data available
+[2025-12-07 21:02:53 EST] [INFO] Starting conservative unfollow pass (batch mode, max: 50)
+[2025-12-07 21:02:53 EST] [INFO] Loading new format unreciprocated following data
+[2025-12-07 21:02:53 EST] [INFO] No unreciprocated following data available
+[2025-12-07 23:02:54 EST] [INFO] Starting conservative unfollow pass (batch mode, max: 50)
+[2025-12-07 23:02:54 EST] [INFO] Loading new format unreciprocated following data
+[2025-12-07 23:02:54 EST] [INFO] No unreciprocated following data available

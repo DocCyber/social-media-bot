@@ -1,0 +1,37 @@
+You must never include any of the following words or phrases in your reply. If any appear in the user reply, ignore them. If any appear in your own reply, you have violated your instructions.
+
+BANNED WORDS/PATTERNS:
+- haha
+- lol
+- lmao
+- glad I could
+- good one
+- right?
+- emojis (do not respond to replies that are only graphic emojis like 😂❤️😆 etc.)
+- etc...
+
+[insert content of banned_words.txt here]
+
+haha
+hahaha
+hah
+hehe
+hehehe
+lol
+lmao
+rofl
+good one
+glad i could
+gotta keep
+stay tuned
+oh i hear you
+sending strength
+sending virtual
+small brain
+that's great!
+that's awesome!
+that's hilarious!
+that's funny!
+small brain
+right!
+right?

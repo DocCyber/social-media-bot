@@ -1,0 +1,6 @@
+{"timestamp": "2025-08-25T05:39:29.861007", "level": "INFO", "logger": "monitoring", "message": "Testing monitoring system", "module": "dashboard", "function": "log_event", "line": 295, "taskName": null, "module_name": "dashboard"}
+{"timestamp": "2025-08-25T05:45:44.432653", "level": "INFO", "logger": "monitoring", "message": "Test info message", "module": "test_suite", "function": "log_event", "line": 295, "taskName": null, "module_name": "test_suite"}
+{"timestamp": "2025-08-25T05:45:44.432838", "level": "WARNING", "logger": "monitoring", "message": "Test warning message", "module": "test_suite", "function": "log_event", "line": 295, "taskName": null, "module_name": "test_suite"}
+{"timestamp": "2025-08-25T05:45:44.432939", "level": "ERROR", "logger": "monitoring", "message": "Test error message", "module": "test_suite", "function": "log_event", "line": 295, "taskName": null, "module_name": "test_suite"}
+{"timestamp": "2025-08-25T07:30:15.147199", "level": "INFO", "logger": "monitoring", "message": "Test message", "module": "test", "function": "log_event", "line": 298, "taskName": null, "module_name": "test"}
+{"timestamp": "2025-08-25T07:44:14.371960", "level": "INFO", "logger": "monitoring", "message": "Test message", "module": "test", "function": "log_event", "line": 298, "taskName": null, "module_name": "test"}

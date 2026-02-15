@@ -1,0 +1,9 @@
+[2025-12-09 02:26:21 EST] [INFO] Starting conservative unfollow pass (batch mode, max: 50)
+[2025-12-09 02:26:21 EST] [INFO] Loading new format unreciprocated following data
+[2025-12-09 02:26:21 EST] [INFO] No unreciprocated following data available
+[2025-12-09 20:01:15 EST] [INFO] Starting conservative unfollow pass (batch mode, max: 50)
+[2025-12-09 20:01:15 EST] [INFO] Loading new format unreciprocated following data
+[2025-12-09 20:01:15 EST] [INFO] No unreciprocated following data available
+[2025-12-09 22:01:15 EST] [INFO] Starting conservative unfollow pass (batch mode, max: 50)
+[2025-12-09 22:01:15 EST] [INFO] Loading new format unreciprocated following data
+[2025-12-09 22:01:15 EST] [INFO] No unreciprocated following data available

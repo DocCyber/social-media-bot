@@ -1,0 +1,362 @@
+File: D:\jokes\tweet\..\jokes.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 814: invalid start byte
+File: D:\jokes\tweet\..\jokes.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 814: invalid start byte
+File: D:\jokes\tweet\..\jokes.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 814: invalid start byte
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: BlueSky Post, Error Line: N/A, Error: 400 Client Error: Bad Request for url: https://bsky.social/xrpc/com.atproto.repo.createRecord
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: BlueSky Post, Error Line: N/A, Error: HTTPSConnectionPool(host='bsky.social', port=443): Max retries exceeded with url: /xrpc/com.atproto.repo.createRecord (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000000001DE5DBD0>, 'Connection to bsky.social timed out. (connect timeout=None)'))
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: BlueSky Refresh, Error Line: N/A, Error: HTTPSConnectionPool(host='bsky.social', port=443): Max retries exceeded with url: /xrpc/com.atproto.server.refreshSession (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000000136EA0D0>: Failed to resolve 'bsky.social' ([Errno 11001] getaddrinfo failed)"))
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: BlueSky Post, Error Line: N/A, Error: HTTPSConnectionPool(host='bsky.social', port=443): Max retries exceeded with url: /xrpc/com.atproto.repo.createRecord (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000000079E7490>, 'Connection to bsky.social timed out. (connect timeout=None)'))
+File: BlueSky Refresh, Error Line: N/A, Error: HTTPSConnectionPool(host='bsky.social', port=443): Max retries exceeded with url: /xrpc/com.atproto.server.refreshSession (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000000079E5BD0>, 'Connection to bsky.social timed out. (connect timeout=None)'))
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\jokes.csv, Error Line: Unknown line, Error: list index out of range
+File: BlueSky Refresh, Error Line: N/A, Error: HTTPSConnectionPool(host='bsky.social', port=443): Max retries exceeded with url: /xrpc/com.atproto.server.refreshSession (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000000016A17250>: Failed to resolve 'bsky.social' ([Errno 11001] getaddrinfo failed)"))
+File: D:\jokes\jokes.csv, Error Line: Unknown line, Error: list index out of range
+File: D:\jokes\jokes.csv, Error Line: Unknown line, Error: list index out of range
+File: D:\jokes\jokes.csv, Error Line: Unknown line, Error: list index out of range
+File: D:\jokes\jokes.csv, Error Line: Unknown line, Error: list index out of range
+File: D:\jokes\jokes.csv, Error Line: Unknown line, Error: list index out of range
+File: D:\jokes\jokes.csv, Error Line: Unknown line, Error: list index out of range
+File: D:\jokes\jokes.csv, Error Line: Unknown line, Error: list index out of range
+File: D:\jokes\jokes.csv, Error Line: Unknown line, Error: list index out of range
+File: D:\jokes\jokes.csv, Error Line: Unknown line, Error: list index out of range
+File: D:\jokes\jokes.csv, Error Line: Unknown line, Error: list index out of range
+File: D:\jokes\jokes.csv, Error Line: Unknown line, Error: list index out of range
+File: D:\jokes\jokes.csv, Error Line: Unknown line, Error: list index out of range
+File: D:\jokes\jokes.csv, Error Line: Unknown line, Error: list index out of range
+File: D:\jokes\jokes.csv, Error Line: Unknown line, Error: list index out of range
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\jokes.csv, Error Line: Unknown line, Error: list index out of range
+File: D:\jokes\jokes.csv, Error Line: Unknown line, Error: list index out of range
+File: D:\jokes\jokes.csv, Error Line: Unknown line, Error: list index out of range
+File: D:\jokes\jokes.csv, Error Line: Unknown line, Error: list index out of range
+File: D:\jokes\jokes.csv, Error Line: Unknown line, Error: list index out of range
+File: D:\jokes\jokes.csv, Error Line: Unknown line, Error: list index out of range
+File: D:\jokes\jokes.csv, Error Line: Unknown line, Error: list index out of range
+File: D:\jokes\jokes.csv, Error Line: Unknown line, Error: list index out of range
+File: D:\jokes\jokes.csv, Error Line: Unknown line, Error: list index out of range
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: BlueSky Refresh, Error Line: N/A, Error: HTTPSConnectionPool(host='bsky.social', port=443): Max retries exceeded with url: /xrpc/com.atproto.server.refreshSession (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000000001BE2D6D0>: Failed to resolve 'bsky.social' ([Errno 11001] getaddrinfo failed)"))
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: BlueSky Refresh, Error Line: N/A, Error: HTTPSConnectionPool(host='bsky.social', port=443): Max retries exceeded with url: /xrpc/com.atproto.server.refreshSession (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000000017697C50>: Failed to resolve 'bsky.social' ([Errno 11001] getaddrinfo failed)"))
+File: BlueSky Refresh, Error Line: N/A, Error: HTTPSConnectionPool(host='bsky.social', port=443): Max retries exceeded with url: /xrpc/com.atproto.server.refreshSession (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000000016159450>: Failed to resolve 'bsky.social' ([Errno 11001] getaddrinfo failed)"))
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: BlueSky Post, Error Line: N/A, Error: HTTPSConnectionPool(host='bsky.social', port=443): Max retries exceeded with url: /xrpc/com.atproto.repo.createRecord (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000000014EFBC50>, 'Connection to bsky.social timed out. (connect timeout=None)'))
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\tweet\..\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte
+File: D:\jokes\DocAfterDark.csv, Error Line: Encoding error: utf-8, Error: 'utf-8' codec can't decode byte 0x85 in position 94: invalid start byte

@@ -1,0 +1,128 @@
+# UNNEEDED FILES FOR PRODUCTION CLEANUP
+# Generated from dependency trace of main_launcher.py
+# These files are not used in the production workflow
+
+## TESTING FILES (All test files - safe to remove)
+./test_automation_comprehensive.py
+./test_bluesky_consolidated.py
+./test_monitoring_comprehensive.py
+./test_platforms.py
+./integration_test_simple.py
+./bsky/data/testreplies.py
+
+## REFACTOR/INCOMPLETE DIRECTORIES (Partial refactor - not used in production)
+./automation/__init__.py
+./automation/content_coordinator.py
+./automation/content_rotator.py
+./automation/maintenance.py
+./automation/scheduler.py
+./automation/timing_optimizer.py
+./automation_dashboard.py
+
+./platforms/__init__.py
+./platforms/base.py
+./platforms/bluesky/__init__.py
+./platforms/bluesky/bluesky_auth.py
+./platforms/bluesky/bluesky_platform.py
+./platforms/bluesky/interactive_modules.py
+./platforms/mastodon_platform.py
+./platforms/twitter_platform.py
+
+./utils/__init__.py
+./utils/config_manager.py
+./utils/csv_handler.py
+./utils/date_aware_logger.py
+./utils/error_logger.py
+./utils/health_checks.py
+./utils/index_manager.py
+./utils/monitoring.py
+
+./monitoring/performance_snapshot.json
+./monitoring_dashboard.py
+
+## LEGACY/UNUSED FILES
+./newcore.py                          # Original launcher (replaced by main_launcher.py)
+./main_launcher - Copy.py             # Backup copy of main launcher
+./bsky/launcher.py                    # Legacy launcher (not used by main_launcher.py)
+./bsky/process_interactions.py        # Legacy interaction processor
+./toot/toot.py                        # Mastodon module (not imported anywhere)
+
+## UNUSED MODULES (Not imported by main_launcher.py)
+./bsky/modules/baddadjokes_reposter.py
+./bsky/modules/custom_reposts.py
+./bsky/modules/dadjoke_reposter.py
+./bsky/modules/logging_utils.py
+./bsky/modules/notifications.py
+./bsky/modules/pinning.py
+./bsky/modules/shout_out.py
+./bsky/modules/unfollower.py          # Replaced by conservative_unfollower.py
+./bsky/modules/csv_utils.py           # Utility not used
+
+## DUPLICATE DATA FILES (Duplicates in different locations)
+./data/csv/DocAfterDark.csv           # Duplicate of ./DocAfterDark.csv
+./data/csv/jokes.csv                  # Duplicate of ./jokes.csv
+./data/csv/questions.csv              # Not used anywhere
+./data/csv/school.csv                 # Not used anywhere
+./data/json/index.json                # Duplicate of ./index.json
+./data/json/keys.json                 # Duplicate of ./keys.json
+
+## UNUSED CONFIG FILES
+./config/blacklist.txt
+./config/comments.txt
+./config/docatcdi_uuid_and_cookie.json
+./config/followed.txt
+./config/friends.txt
+./config/master_config.json
+./config/skipped.txt
+./config/unfollowed.txt
+./config/whitelist.txt
+
+## UNUSED DATA FILES
+./bsky/data/__init__.py
+./bsky/data/debits.csv
+./bsky/data/interactions.csv
+./bsky/data/keywords.csv
+./bsky/data/kimmel.txt
+./bsky/data/user_scores.csv
+./bsky/data/usernames.txt
+./bsky/data/voicebrief.txt
+./bsky/modules/data/unreciprocated_following_2024-12-18.json  # Old dated file
+
+## ROOT LEVEL DUPLICATES/UNUSED
+./liked_posts.csv                     # Duplicate of bsky/modules/liked_posts.csv
+./processed_notifications.json        # Duplicate of bsky/modules/processed_notifications.json
+./recent_follows.json                 # Duplicate of bsky/modules/recent_follows.json
+./bsky/reposted_posts.json           # Duplicate of bsky/modules/reposted_posts.json
+
+## UNUSED CONFIGS
+./bsky/config.json                    # Not used (keys.json used instead)
+./bsky/modules/config.json            # Not used
+
+## TEMPORARY FILES
+./tmp/jokes 2.txt
+./tmp/jokes 3.txt
+./tmp/jokes 4.txt
+./tmp/jokes 5.txt
+./tmp/jokes 6.txt
+./tmp/jokes 7.txt
+./tmp/jokes 8.txt
+./tmp/jokes1.txt
+
+## SYSTEM/DEVELOPMENT FILES (Keep for development but not needed for production)
+./.claude/settings.local.json         # Claude Code settings
+./AGENTS.md                           # Documentation
+./CLAUDE.md                           # Documentation
+
+# SUMMARY:
+# Total files found: ~130
+# Files used in production: ~40
+# Files safe to remove: ~90
+#
+# Main categories for removal:
+# - All test files (6 files)
+# - Incomplete refactor directories (25+ files)
+# - Legacy/unused modules (15+ files)
+# - Duplicate data files (8 files)
+# - Unused config files (15+ files)
+# - Temporary files (8 files)
+# - System files (optional - 3 files)

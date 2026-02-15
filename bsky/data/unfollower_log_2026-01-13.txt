@@ -1,0 +1,36 @@
+[2026-01-13 01:32:48 EST] [INFO] Starting conservative unfollow pass (batch mode, max: 50)
+[2026-01-13 01:32:48 EST] [INFO] Loading new format unreciprocated following data
+[2026-01-13 01:32:48 EST] [INFO] No unreciprocated following data available
+[2026-01-13 03:32:49 EST] [INFO] Starting conservative unfollow pass (batch mode, max: 50)
+[2026-01-13 03:32:49 EST] [INFO] Loading new format unreciprocated following data
+[2026-01-13 03:32:49 EST] [INFO] No unreciprocated following data available
+[2026-01-13 05:32:50 EST] [INFO] Starting conservative unfollow pass (batch mode, max: 50)
+[2026-01-13 05:32:50 EST] [INFO] Loading new format unreciprocated following data
+[2026-01-13 05:32:50 EST] [INFO] No unreciprocated following data available
+[2026-01-13 07:32:50 EST] [INFO] Starting conservative unfollow pass (batch mode, max: 50)
+[2026-01-13 07:32:50 EST] [INFO] Loading new format unreciprocated following data
+[2026-01-13 07:32:50 EST] [INFO] No unreciprocated following data available
+[2026-01-13 09:32:51 EST] [INFO] Starting conservative unfollow pass (batch mode, max: 50)
+[2026-01-13 09:32:51 EST] [INFO] Loading new format unreciprocated following data
+[2026-01-13 09:32:51 EST] [INFO] No unreciprocated following data available
+[2026-01-13 11:32:52 EST] [INFO] Starting conservative unfollow pass (batch mode, max: 50)
+[2026-01-13 11:32:52 EST] [INFO] Loading new format unreciprocated following data
+[2026-01-13 11:32:52 EST] [INFO] No unreciprocated following data available
+[2026-01-13 13:32:53 EST] [INFO] Starting conservative unfollow pass (batch mode, max: 50)
+[2026-01-13 13:32:53 EST] [INFO] Loading new format unreciprocated following data
+[2026-01-13 13:32:53 EST] [INFO] No unreciprocated following data available
+[2026-01-13 15:32:54 EST] [INFO] Starting conservative unfollow pass (batch mode, max: 50)
+[2026-01-13 15:32:54 EST] [INFO] Loading new format unreciprocated following data
+[2026-01-13 15:32:54 EST] [INFO] No unreciprocated following data available
+[2026-01-13 17:32:54 EST] [INFO] Starting conservative unfollow pass (batch mode, max: 50)
+[2026-01-13 17:32:54 EST] [INFO] Loading new format unreciprocated following data
+[2026-01-13 17:32:54 EST] [INFO] No unreciprocated following data available
+[2026-01-13 19:32:54 EST] [INFO] Starting conservative unfollow pass (batch mode, max: 50)
+[2026-01-13 19:32:54 EST] [INFO] Loading new format unreciprocated following data
+[2026-01-13 19:32:54 EST] [INFO] No unreciprocated following data available
+[2026-01-13 21:32:55 EST] [INFO] Starting conservative unfollow pass (batch mode, max: 50)
+[2026-01-13 21:32:55 EST] [INFO] Loading new format unreciprocated following data
+[2026-01-13 21:32:55 EST] [INFO] No unreciprocated following data available
+[2026-01-13 23:32:55 EST] [INFO] Starting conservative unfollow pass (batch mode, max: 50)
+[2026-01-13 23:32:55 EST] [INFO] Loading new format unreciprocated following data
+[2026-01-13 23:32:55 EST] [INFO] No unreciprocated following data available

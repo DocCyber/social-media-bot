@@ -1,0 +1,5 @@
+{
+  "grace_period_days": 0,
+  "max_unfollows_per_pass": 50,
+  "description": "Configuration for conservative unfollower. grace_period_days: how many days to wait before unfollowing someone who doesn't follow back."
+}

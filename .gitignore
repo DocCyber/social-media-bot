@@ -1,16 +1,42 @@
-# Social Media Bot .gitignore
-
-# Credentials and Keys
+# ============================================================================
+# CREDENTIALS - NEVER COMMIT THESE
+# ============================================================================
 keys.json
-*.key
-*.pem
+**/keys.json
+*_keys.json
+**/*_keys.json
+config.json
+**/config.json
+D:/secrets/
+d:/secrets/
+secrets/
 
-# Environment Variables
-.env
-.env.local
-.env.production
+# ============================================================================
+# USER DATA - PRIVACY
+# ============================================================================
+PAYGTwitter/user_data*.csv
+PAYGTwitter/last_add_check.txt
+PAYGTwitter/engagement_log.txt
+PAYGTwitter/*_backup_*.csv
 
-# Python
+# ============================================================================
+# BlueSky STATE FILES (contain DIDs and personal data)
+# ============================================================================
+bsky/modules/*.json
+bsky/modules/liked_posts.csv
+bsky/modules/data/
+
+# ============================================================================
+# LOGS (Optional - uncomment if you don't want logs in repo)
+# ============================================================================
+# bsky/data/ai_reply_log_*.txt
+# bsky/data/unfollower_log_*.txt
+# bsky/data/data_collection.log
+# corrupted_lines.txt
+
+# ============================================================================
+# PYTHON
+# ============================================================================
 __pycache__/
 *.py[cod]
 *$py.class
@@ -28,58 +54,44 @@ parts/
 sdist/
 var/
 wheels/
-pip-wheel-metadata/
-share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
 MANIFEST
 
-# Virtual Environment
+# ============================================================================
+# VIRTUAL ENVIRONMENTS
+# ============================================================================
 venv/
 env/
 ENV/
 
-# Logs and Monitoring
-*.log
-*.log.*
-monitoring/logs/*.log
-monitoring/logs/*.jsonl
-monitoring/metrics/*.jsonl
-logging/
-
-# State Files
-automation/coordinator_state.json
-automation/content_freshness.json
-automation/engagement_history.json
-automation/tasks.json
-
-# Temporary Files
-*.tmp
-*.temp
-temp/
-tmp/
-
-# OS Files
-.DS_Store
-Thumbs.db
-
-# IDE
+# ============================================================================
+# IDE / EDITORS
+# ============================================================================
 .vscode/
 .idea/
 *.swp
 *.swo
+*.swn
+*~
 
-# Data Processing
-*.csv.bak
-data/processed/
-data/backup/
+# ============================================================================
+# OS GENERATED
+# ============================================================================
+.DS_Store
+Thumbs.db
+desktop.ini
 
-# Testing
-.pytest_cache/
-.coverage
-htmlcov/
+# ============================================================================
+# BACKUP FOLDERS
+# ============================================================================
+*backup*/
+*bakup*/
+*.backup
+*.bak
 
-# Cleanup scripts
-cleanup_project.py
-essential_files.txt
+# ============================================================================
+# RSS STATE
+# ============================================================================
+rss/rss_state.json

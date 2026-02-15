@@ -1,0 +1,193 @@
+{
+  "total_unfollowed": 8146,
+  "unfollows_today": 9,
+  "last_unfollow_date": "2026-02-15",
+  "started_at": "2025-09-24T09:28:55.699387+00:00",
+  "daily_history": {
+    "2025-09-24": {
+      "unfollowed": 312,
+      "in_grace_period": 0,
+      "ready_to_unfollow": 6159,
+      "stale_cleaned": 8,
+      "now_following_back": 36,
+      "deleted_accounts": 11
+    },
+    "2025-09-25": {
+      "unfollowed": 289,
+      "stale_cleaned": 200,
+      "now_following_back": 28,
+      "deleted_accounts": 16
+    },
+    "2025-09-26": {
+      "unfollowed": 460,
+      "stale_cleaned": 1,
+      "now_following_back": 34,
+      "deleted_accounts": 11
+    },
+    "2025-09-27": {
+      "unfollowed": 652,
+      "stale_cleaned": 2,
+      "now_following_back": 39,
+      "deleted_accounts": 11
+    },
+    "2025-09-28": {
+      "unfollowed": 642,
+      "stale_cleaned": 4,
+      "now_following_back": 33,
+      "deleted_accounts": 25
+    },
+    "2025-09-29": {
+      "unfollowed": 667,
+      "stale_cleaned": 21,
+      "now_following_back": 1,
+      "deleted_accounts": 6
+    },
+    "2025-09-30": {
+      "unfollowed": 683,
+      "stale_cleaned": 7,
+      "now_following_back": 5,
+      "deleted_accounts": 10
+    },
+    "2025-10-01": {
+      "unfollowed": 675,
+      "stale_cleaned": 8,
+      "now_following_back": 10,
+      "deleted_accounts": 11
+    },
+    "2025-10-02": {
+      "unfollowed": 680,
+      "stale_cleaned": 4,
+      "now_following_back": 6,
+      "deleted_accounts": 14
+    },
+    "2025-10-03": {
+      "unfollowed": 500,
+      "stale_cleaned": 5,
+      "now_following_back": 19,
+      "deleted_accounts": 13
+    },
+    "2025-10-07": {
+      "unfollowed": 2417,
+      "stale_cleaned": 0,
+      "now_following_back": 0,
+      "deleted_accounts": 0
+    },
+    "2025-10-12": {
+      "unfollowed": 9,
+      "stale_cleaned": 0,
+      "now_following_back": 0,
+      "deleted_accounts": 0
+    },
+    "2025-10-19": {
+      "unfollowed": 15,
+      "stale_cleaned": 0,
+      "now_following_back": 1,
+      "deleted_accounts": 0
+    },
+    "2025-10-26": {
+      "unfollowed": 6,
+      "stale_cleaned": 0,
+      "now_following_back": 0,
+      "deleted_accounts": 0
+    },
+    "2025-10-27": {
+      "unfollowed": 4,
+      "stale_cleaned": 0,
+      "now_following_back": 0,
+      "deleted_accounts": 0
+    },
+    "2025-11-02": {
+      "unfollowed": 6,
+      "stale_cleaned": 0,
+      "now_following_back": 0,
+      "deleted_accounts": 0
+    },
+    "2025-11-09": {
+      "unfollowed": 10,
+      "stale_cleaned": 0,
+      "now_following_back": 0,
+      "deleted_accounts": 0
+    },
+    "2025-11-16": {
+      "unfollowed": 10,
+      "stale_cleaned": 0,
+      "now_following_back": 0,
+      "deleted_accounts": 0
+    },
+    "2025-11-23": {
+      "unfollowed": 9,
+      "stale_cleaned": 0,
+      "now_following_back": 0,
+      "deleted_accounts": 0
+    },
+    "2025-11-30": {
+      "unfollowed": 5,
+      "stale_cleaned": 0,
+      "now_following_back": 0,
+      "deleted_accounts": 0
+    },
+    "2025-12-07": {
+      "unfollowed": 10,
+      "stale_cleaned": 0,
+      "now_following_back": 0,
+      "deleted_accounts": 0
+    },
+    "2025-12-14": {
+      "unfollowed": 3,
+      "stale_cleaned": 0,
+      "now_following_back": 0,
+      "deleted_accounts": 0
+    },
+    "2025-12-21": {
+      "unfollowed": 10,
+      "stale_cleaned": 0,
+      "now_following_back": 0,
+      "deleted_accounts": 0
+    },
+    "2025-12-28": {
+      "unfollowed": 7,
+      "stale_cleaned": 0,
+      "now_following_back": 0,
+      "deleted_accounts": 0
+    },
+    "2026-01-11": {
+      "unfollowed": 25,
+      "stale_cleaned": 0,
+      "now_following_back": 0,
+      "deleted_accounts": 0
+    },
+    "2026-01-18": {
+      "unfollowed": 9,
+      "stale_cleaned": 0,
+      "now_following_back": 0,
+      "deleted_accounts": 0
+    },
+    "2026-01-25": {
+      "unfollowed": 9,
+      "stale_cleaned": 0,
+      "now_following_back": 0,
+      "deleted_accounts": 0
+    },
+    "2026-02-01": {
+      "unfollowed": 9,
+      "stale_cleaned": 0,
+      "now_following_back": 0,
+      "deleted_accounts": 0
+    },
+    "2026-02-08": {
+      "unfollowed": 4,
+      "stale_cleaned": 0,
+      "now_following_back": 0,
+      "deleted_accounts": 0
+    },
+    "2026-02-15": {
+      "unfollowed": 9,
+      "stale_cleaned": 0,
+      "now_following_back": 0,
+      "deleted_accounts": 0
+    }
+  },
+  "grace_period_days": 0,
+  "accounts_in_grace_period": 0,
+  "accounts_ready_to_unfollow": 6159
+}

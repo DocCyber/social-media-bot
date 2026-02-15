@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "version": "2.0.0",
+    "created": "2025-08-25",
+    "description": "Unified configuration for social media automation bot"
+  },
+  "platforms": {
+    "twitter": {
+      "enabled": true,
+      "access_token": "282619516-SmgchuvwmnJkWL9tWxTLZuhcqXTt75oJw04nyzfG",
+      "access_token_secret": "JZKTeMKB56cwrRGCi7TMpLBWch0QIXarepTj1nI0WfLWA",
+      "consumer_key": "JEm8nuiF3OOiX3CLCDcIFacxo",
+      "consumer_secret": "e1UqhxJHcYtMoTnSdUvJhsf5g9VCF1DuESMDVSV6NJWroUOBiG",
+      "bearer_token": "AAAAAAAAAAAAAAAAAAAAAE4aoQEAAAAA9mDpxxbYyEWIMdc%2Bf%2FZ60JpBdcY%3D7DgOjSiAEKUXvKIC56MNA06H1lb4y3WdIhGMhDB5a0HOH2hHdk"
+    },
+    "mastodon": {
+      "enabled": true,
+      "client_id": "cfn2W-fDjclkW8-8V8yhcSjA2jWkXDflPrz_4EzNbgQ",
+      "client_secret": "f_nh-2sf_hSttb-QAzrYQXZwF_E1t8l9KOuq1-U0l-s",
+      "access_token": "oq6dFI3Y0u4d3IHL6yjuTG_XOs8nHmNbospOAeBVFtg",
+      "api_base_url": "https://mastodon.social"
+    },
+    "bluesky": {
+      "enabled": true,
+      "handle": "docatcdi.com",
+      "app_password": "hftk-zbuc-pl3k-xawr",
+      "pds_url": "https://bsky.social",
+      "accessJwt": "eyJ0eXAiOiJhdCtqd3QiLCJhbGciOiJFUzI1NksifQ.eyJzY29wZSI6ImNvbS5hdHByb3RvLmFwcFBhc3NQcml2aWxlZ2VkIiwic3ViIjoiZGlkOnBsYzpsemk1Nmtsa2FlaHd6cXV0NzJiMmh4czYiLCJpYXQiOjE3NTYxMTQwNDgsImV4cCI6MTc1NjEyMTI0OCwiYXVkIjoiZGlkOndlYjpzaGltZWppLnVzLWVhc3QuaG9zdC5ic2t5Lm5ldHdvcmsifQ.myGFvJdcQ8aOXdJKSWt6U50OEc5wL_crq6oJ0NeMuqe4GSHszGutxXZ_-mrxzbn8REtx3hTdI11GKxqn35-zTA",
+      "refreshJwt": "eyJ0eXAiOiJyZWZyZXNoK2p3dCIsImFsZyI6IkVTMjU2SyJ9.eyJzY29wZSI6ImNvbS5hdHByb3RvLnJlZnJlc2giLCJzdWIiOiJkaWQ6cGxjOmx6aTU2a2xrYWVod3pxdXQ3MmIyaHhzNiIsImF1ZCI6ImRpZDp3ZWI6YnNreS5zb2NpYWwiLCJqdGkiOiIzV21HSXhhcDhnMngyMERoMVExYi9zdzRPb1EzYTFrbVI4Wm9tRnZLd3ZzIiwiaWF0IjoxNzU2MTE0MDQ4LCJleHAiOjE3NjM4OTAwNDh9.TEu9bvNY3DViUeuXK36CH21IMFGVBzboZRMIBBCNUstZkq1DXXFYiZJys6BfJJIUow8h5gbztNCNtE2Ff8HDFg"
+    }
+  },
+  "paths": {
+    "base_directory": "D:/jokes",
+    "data_directory": "D:/jokes/data",
+    "csv_directory": "D:/jokes/data/csv",
+    "json_directory": "D:/jokes/data/json",
+    "log_directory": "D:/jokes/logging",
+    "platforms_directory": "D:/jokes/platforms",
+    "utils_directory": "D:/jokes/utils",
+    "jokes_csv": "D:/jokes/jokes.csv",
+    "replies_csv": "D:/jokes/data/csv/replies.csv"
+  },
+  "logging": {
+    "level": "INFO",
+    "console_output": true,
+    "file_output": true,
+    "max_file_size_mb": 10,
+    "backup_count": 5,
+    "format": "[{timestamp}] {module_name}: {message} {status}",
+    "timestamp_format": "%Y-%m-%d %H:%M:%S"
+  },
+  "scheduling": {
+    "timezone": "US/Eastern",
+    "posting_frequency": {
+      "twitter": "0 9,12,15,18,21 * * *",
+      "mastodon": "0 10,13,16,19 * * *", 
+      "bluesky": "0 8,11,14,17,20 * * *"
+    },
+    "interactive_frequency": "*/15 * * * *",
+    "maintenance_frequency": "0 2 * * *"
+  },
+  "content": {
+    "csv_encoding": "utf-8",
+    "fallback_encodings": ["latin-1", "cp1252", "windows-1252"],
+    "max_content_length": {
+      "twitter": 280,
+      "mastodon": 500,
+      "bluesky": 300
+    },
+    "content_filters": {
+      "enabled": true,
+      "blocked_words": [],
+      "min_length": 10,
+      "max_hashtags": 3
+    }
+  },
+  "interactive": {
+    "reply_cooldown_hours": 2,
+    "max_replies_per_user": 3,
+    "follow_back_enabled": true,
+    "reaction_types": ["like", "repost"],
+    "notification_processing": {
+      "enabled": true,
+      "batch_size": 50,
+      "max_age_hours": 24
+    }
+  },
+  "security": {
+    "rate_limiting": {
+      "enabled": true,
+      "requests_per_minute": 30,
+      "burst_limit": 60
+    },
+    "token_refresh": {
+      "auto_refresh": true,
+      "refresh_threshold_hours": 2,
+      "max_retry_attempts": 3
+    }
+  },
+  "rss": {
+    "feeds": [
+      "https://thesixthlense.com/feed.xml"
+    ],
+    "poll_interval_minutes": 20,
+    "post_delay_seconds": [5, 10],
+    "enable_twitter": true,
+    "enable_mastodon": true,
+    "enable_bluesky": true,
+    "post_on_first_run": true,
+    "llm_enabled": true,
+    "llm_model": "gpt-4o",
+    "staggered_posting": {
+      "enabled": true,
+      "delay_between_platforms_minutes": [40, 80],
+      "randomize_platform_order": true
+    },
+    "test_mode": {
+      "enabled": false,
+      "poll_interval_minutes": 5,
+      "delay_between_platforms_minutes": [5, 15]
+    }
+  }
+}
