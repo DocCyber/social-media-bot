@@ -24,6 +24,8 @@ sys.path.append(str(BASE_DIR / "tweet"))
 # Add PAYGTwitter paths for auto-reply and praise bot
 sys.path.append(str(BASE_DIR / "PAYGTwitter"))
 sys.path.append(str(BASE_DIR / "PAYGTwitter" / "praise_bot"))
+sys.path.append(str(BASE_DIR / "NASA"))
+sys.path.append(str(BASE_DIR / "NatureImages"))
 
 def calculate_random_time(base_hour: int, base_minute: int = 30, window: int = 15) -> str:
     """Calculate a random time within ±window minutes of base time."""
@@ -197,6 +199,22 @@ def refresh_follow_data():
     except Exception as e:
         print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Error in refresh_follow_data(): {e}")
 
+def nasa_apod_post():
+    """Fetch NASA APOD and post natively (with image) to Twitter and BlueSky."""
+    try:
+        from NASA import apod
+        apod.main()
+    except Exception as e:
+        print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Error in nasa_apod_post(): {e}")
+
+def nature_images_post():
+    """Post a nature/landscape image from NASA EPIC or Pexels to Twitter and BlueSky."""
+    try:
+        from NatureImages import nature
+        nature.main()
+    except Exception as e:
+        print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Error in nature_images_post(): {e}")
+
 def schedule_dynamic_task(func, min_minutes, max_minutes, tag_name):
     """Schedule a task to run once after a random delay, then reschedule with a new random delay."""
     delay = random.randint(min_minutes, max_minutes)
@@ -292,6 +310,32 @@ def twitter_praise_bot():
     finally:
         os.chdir(original_dir)
 
+def setup_nature_schedules():
+    """Setup/refresh Nature Images schedules with new random times on odd hours."""
+    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Setting up Nature Images schedules with new random times...")
+
+    ODD_HOURS = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23]
+
+    # Clear existing nature schedules
+    for h in ODD_HOURS:
+        schedule.clear(f"nature_h{h}")
+
+    # Create new schedules with fresh random times (±15 min of the hour)
+    for h in ODD_HOURS:
+        rand_time = calculate_random_time(h, 0, 15)
+        schedule.every().day.at(rand_time).do(nature_images_post).tag(f"nature_h{h}")
+        print(f"  Nature hour {h:02d}: Scheduled at {rand_time} (window {h:02d}:45-{h+1 if h < 23 else 0:02d}:15)")
+
+    print("Nature Images schedules updated successfully")
+
+def setup_apod_schedule():
+    """Setup/refresh NASA APOD schedule with a random time around noon ±5 min."""
+    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Setting up NASA APOD schedule...")
+    schedule.clear("apod_daily")
+    rand_time = calculate_random_time(12, 0, 5)
+    schedule.every().day.at(rand_time).do(nasa_apod_post).tag("apod_daily")
+    print(f"  NASA APOD: Scheduled at {rand_time} (window 11:55-12:05)")
+
 def setup_twitter_schedules():
     """Setup/refresh Twitter posting schedules with new random times."""
     print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Setting up Twitter schedules with new random times...")
@@ -365,6 +409,14 @@ def main():
 
     # Data Collection: Refresh following/follower data every Sunday at 2 AM
     schedule.every().sunday.at("02:00").do(refresh_follow_data)
+
+    # NASA APOD: Post Astronomy Picture of the Day daily at noon ±5 min, refresh schedule daily
+    setup_apod_schedule()
+    schedule.every().day.at("00:31").do(setup_apod_schedule)
+
+    # Nature Images: Post on odd hours (1,3,5...23) ±15 min, refresh schedule daily
+    setup_nature_schedules()
+    schedule.every().day.at("00:32").do(setup_nature_schedules)
 
     # Twitter Auto-Reply: every 10-20 minutes (target ~15 ±5), dynamic reschedule after each run
     schedule_dynamic_task(twitter_auto_reply, 10, 20, "twitter_auto_reply")

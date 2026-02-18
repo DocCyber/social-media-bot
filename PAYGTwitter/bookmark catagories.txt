@@ -1,0 +1,8 @@
+    Supported variants:
+    - "bookmark this" - Normal add (default)
+    - "bookmark this in my friend category" - Add and mark as friend
+    - "bookmark this in my foe category" - Add and mark as foe
+    - "bookmark this in my jokster category" - Add as jokster (witty banter, playful, avoid politics)
+    - "bookmark this in my snark category" - Add as snark (sarcastic, sharp wit)
+    - "bookmark this in my priority category" - Add with high priority
+    - (Future: remove functionality if needed)

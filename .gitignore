@@ -2,6 +2,9 @@
 # CREDENTIALS - NEVER COMMIT THESE
 # ============================================================================
 keys.json
+# Claude Code local settings (may contain tokens/allowed commands with secrets)
+.claude/settings.local.json
+**/.claude/settings.local.json
 **/keys.json
 *_keys.json
 **/*_keys.json
